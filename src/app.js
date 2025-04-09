@@ -15,9 +15,9 @@ window.onload = function() {
   for(let i = 0; i < pronouns.length; i++) {
     for(let j = 0; j < adjs.length; j++) {
       for(let k = 0; k < nouns.length; k++) {
-        console.log(pronouns[i] + adjs[j] + nouns[k]);
+        console.log(pronouns[i] + adjs[j] + nouns[k] + '.com');
         let li = document.createElement("li");
-        li.textContent = pronouns[i] + adjs[j] + nouns[k];
+        li.textContent = pronouns[i] + adjs[j] + nouns[k] + '.com';
         domains.appendChild(li);
       }
     }
